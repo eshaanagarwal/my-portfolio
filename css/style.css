@@ -230,7 +230,7 @@ section .title::after{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
-    line-height: 70px;
+    line-height: 30px;
 }
 .about .about-content .right .text span{
     color: crimson;
@@ -532,6 +532,8 @@ footer span a:hover{
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
+        margin-top: 20px;
+
     }
 }
 
@@ -555,11 +557,15 @@ footer span a:hover{
         font-size: 50px;
     }
     .home .home-content .text-3{
-        font-size: 27px;
+        font-size: 40px;
     }
     .about .about-content .right .text,
+    {
+        font-size: 20px;
+    }
     .skills .skills-content .left .text{
-        font-size: 19px;
+        
+        font-size: 50px;
     }
     .contact .right form .fields{
         flex-direction: column;
